@@ -1,9 +1,9 @@
-@import "reset";
-@import "base";
-@import "utils";
-@import "classes";
-@import "animations";
-@import "media-queries";
+@use "base" as *;
+@use "reset" as *;
+@use "classes" as *;
+@use "utils" as *;
+@use "animations" as *;
+@use "media-queries" as *;
 
 .grid-container {
   display: grid;
