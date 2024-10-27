@@ -191,10 +191,10 @@ footer {
   align-items: center;
   color: white;
   padding: 5rem;
+  background: var(--text);
   @include xs {
     padding: 5rem 1.5rem;
   }
-  background: var(--text);
   h2 {
     margin-bottom: 3rem;
   }
@@ -230,11 +230,11 @@ footer {
       outline: 0;
       border: 0;
       min-width: 400px;
+      padding: 1rem 2rem;
+      line-height: 2rem;
       @include xs {
         min-width: 200px;
       }
-      padding: 1rem 2rem;
-      line-height: 2rem;
       &::placeholder {
         color: var(--text);
       }
